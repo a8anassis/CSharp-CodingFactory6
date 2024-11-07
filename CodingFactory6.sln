@@ -25,6 +25,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FiboWithArray", "FiboWithAr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IgnoreNegatives", "IgnoreNegatives\IgnoreNegatives.csproj", "{4371D1E1-09E3-4905-9087-D6A945304D1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerApp", "PowerApp\PowerApp.csproj", "{97AAA711-88B2-4B4C-9E72-202CD907809C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimesApp", "PrimesApp\PrimesApp.csproj", "{57BCB033-B441-41B1-8DCC-0279B0827E33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{4371D1E1-09E3-4905-9087-D6A945304D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4371D1E1-09E3-4905-9087-D6A945304D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4371D1E1-09E3-4905-9087-D6A945304D1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97AAA711-88B2-4B4C-9E72-202CD907809C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97AAA711-88B2-4B4C-9E72-202CD907809C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97AAA711-88B2-4B4C-9E72-202CD907809C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97AAA711-88B2-4B4C-9E72-202CD907809C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57BCB033-B441-41B1-8DCC-0279B0827E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57BCB033-B441-41B1-8DCC-0279B0827E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57BCB033-B441-41B1-8DCC-0279B0827E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57BCB033-B441-41B1-8DCC-0279B0827E33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
