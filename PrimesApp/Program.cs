@@ -15,7 +15,7 @@
         {
             bool prime = true;
 
-            for (int divider = 2; divider <= (int) Math.Sqrt(n); divider++) 
+            for (int divider = 2; divider <= Math.Sqrt(n); divider++) 
             {
                 if ((n % divider) == 0)
                 {
