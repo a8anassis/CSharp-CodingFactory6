@@ -60,7 +60,6 @@
                 {
                     jagged[i][j] = random.Next(MAX - MIN + 1) + MIN;
                 }
-                
             }
 
             foreach (int[] row in jagged)
@@ -71,8 +70,6 @@
                 }
                 Console.WriteLine();
             }
-
-
         }
     }
 }
