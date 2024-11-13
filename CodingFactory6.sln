@@ -61,6 +61,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointApp", "PointApp\PointA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyingApp", "CopyingApp\CopyingApp.csproj", "{5D5DD90D-A6DD-401E-B601-D312E2AE2B16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fraction", "Fraction\Fraction.csproj", "{30E09694-9CA4-4F9F-9E7A-F45A8605CC00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesApp", "InterfacesApp\InterfacesApp.csproj", "{C69C2C5D-229B-461B-BBEB-D19E656F76B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +187,14 @@ Global
 		{5D5DD90D-A6DD-401E-B601-D312E2AE2B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D5DD90D-A6DD-401E-B601-D312E2AE2B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D5DD90D-A6DD-401E-B601-D312E2AE2B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30E09694-9CA4-4F9F-9E7A-F45A8605CC00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E09694-9CA4-4F9F-9E7A-F45A8605CC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E09694-9CA4-4F9F-9E7A-F45A8605CC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E09694-9CA4-4F9F-9E7A-F45A8605CC00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C69C2C5D-229B-461B-BBEB-D19E656F76B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C69C2C5D-229B-461B-BBEB-D19E656F76B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C69C2C5D-229B-461B-BBEB-D19E656F76B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C69C2C5D-229B-461B-BBEB-D19E656F76B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
