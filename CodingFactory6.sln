@@ -43,19 +43,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullableStrings", "Nullable
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegEx", "RegEx\RegEx.csproj", "{90BDCB73-9C9E-4F0B-B808-DAD456ABC7E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradesApp", "GradesApp\GradesApp.csproj", "{975A297F-CAFD-4A69-96D3-79190C32CC44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradesApp", "GradesApp\GradesApp.csproj", "{975A297F-CAFD-4A69-96D3-79190C32CC44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwapApp", "SwapApp\SwapApp.csproj", "{49722093-84ED-4070-A76D-64C7713AF9A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwapApp", "SwapApp\SwapApp.csproj", "{49722093-84ED-4070-A76D-64C7713AF9A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamsApp", "ParamsApp\ParamsApp.csproj", "{58A425CF-0FE5-4A80-AE7D-437A1AF32644}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParamsApp", "ParamsApp\ParamsApp.csproj", "{58A425CF-0FE5-4A80-AE7D-437A1AF32644}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalParams", "OptionalParams\OptionalParams.csproj", "{C8BF3B7B-E6BB-4CDD-8C02-07F8FBAACE0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionalParams", "OptionalParams\OptionalParams.csproj", "{C8BF3B7B-E6BB-4CDD-8C02-07F8FBAACE0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverload", "MethodOverload\MethodOverload.csproj", "{94CEE437-A4D3-4DEF-A886-7DD9B98130C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodOverload", "MethodOverload\MethodOverload.csproj", "{94CEE437-A4D3-4DEF-A886-7DD9B98130C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOApp", "OOApp\OOApp.csproj", "{9063F42B-60AC-43D1-89A4-B60FD81E6A65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOApp", "OOApp\OOApp.csproj", "{9063F42B-60AC-43D1-89A4-B60FD81E6A65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountApp", "AccountApp\AccountApp.csproj", "{76D93FCF-76BB-47E0-8FFF-CFC558BB3F38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountApp", "AccountApp\AccountApp.csproj", "{76D93FCF-76BB-47E0-8FFF-CFC558BB3F38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointApp", "PointApp\PointApp.csproj", "{2A2DE3A5-3E23-4010-8EC0-58FEAB6888E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{76D93FCF-76BB-47E0-8FFF-CFC558BB3F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76D93FCF-76BB-47E0-8FFF-CFC558BB3F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76D93FCF-76BB-47E0-8FFF-CFC558BB3F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2DE3A5-3E23-4010-8EC0-58FEAB6888E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2DE3A5-3E23-4010-8EC0-58FEAB6888E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2DE3A5-3E23-4010-8EC0-58FEAB6888E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2DE3A5-3E23-4010-8EC0-58FEAB6888E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

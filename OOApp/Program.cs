@@ -17,12 +17,12 @@ namespace OOApp
                 // Lastname = "Giannoutsou"
             };
 
-            Teacher bob2 = new Teacher(1, "Bob", "Dylan");
+            Teacher bob2 = new Teacher(1, "Bob", "Dylan", SchoolType.KEK);
 
             anna.Firstname = "Georgia";
             Console.WriteLine(anna.Firstname);
 
-            Teacher andreas = new Teacher(1, "Andreas", "Androutsos");
+            Teacher andreas = new Teacher(1, "Andreas", "Androutsos", SchoolType.KEK);
         }
     }
 }
