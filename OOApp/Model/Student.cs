@@ -8,7 +8,7 @@ namespace OOApp.Model
 {
     internal class Student
     {
-        private int _id;
+        private  int _id;
         private string? _firstname;
         private string? _lastname;
 

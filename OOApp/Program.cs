@@ -14,8 +14,13 @@ namespace OOApp
             {
                 Id = 1,
                 Firstname = "Anna"
-                //Lastname = "Giannoutsou"
+                // Lastname = "Giannoutsou"
             };
+
+            Teacher bob2 = new Teacher(1, "Bob", "Dylan");
+
+            anna.Firstname = "Georgia";
+            Console.WriteLine(anna.Firstname);
 
             Teacher andreas = new Teacher(1, "Andreas", "Androutsos");
         }
