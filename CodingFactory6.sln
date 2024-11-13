@@ -59,6 +59,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountApp", "AccountApp\Ac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointApp", "PointApp\PointApp.csproj", "{2A2DE3A5-3E23-4010-8EC0-58FEAB6888E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyingApp", "CopyingApp\CopyingApp.csproj", "{5D5DD90D-A6DD-401E-B601-D312E2AE2B16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{2A2DE3A5-3E23-4010-8EC0-58FEAB6888E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A2DE3A5-3E23-4010-8EC0-58FEAB6888E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A2DE3A5-3E23-4010-8EC0-58FEAB6888E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D5DD90D-A6DD-401E-B601-D312E2AE2B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D5DD90D-A6DD-401E-B601-D312E2AE2B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D5DD90D-A6DD-401E-B601-D312E2AE2B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D5DD90D-A6DD-401E-B601-D312E2AE2B16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
