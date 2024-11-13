@@ -25,12 +25,34 @@ namespace PointApp
             p4.Move10();
             p1.Move10();
 
-            Console.WriteLine(p1);
+            /*Console.WriteLine(p1);
             Console.WriteLine(p2);
             Console.WriteLine(p3);
-            Console.WriteLine(p4);
+            Console.WriteLine(p4);*/
 
+            List<Point> points =
+            [
+                new Point(1), new Point(2),
+                new Point2D(2, 3), new Point2D(3, 4),
+                new Point3D(5, 6, 7), new Point3D(9, 10, 11)
+            ];
 
+            foreach (Point point in points)
+            {
+                Console.WriteLine(point);
+            }
+
+            MakeMove(p2);
+        }
+
+        public static void DoPrint(Point p)
+        {
+            Console.WriteLine(p);
+        }
+
+        public static void MakeMove(Point p)
+        {
+            p.Move10();
         }
     }
 }

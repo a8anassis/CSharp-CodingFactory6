@@ -22,7 +22,7 @@ namespace PointApp.Model
             return base.ToString() + " " + $"{{{Z}}}";
         }
 
-        public override void Move10()
+        public sealed override void Move10()
         {
             base.Move10();
             Z += 10;
