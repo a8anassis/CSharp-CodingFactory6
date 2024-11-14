@@ -67,6 +67,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesApp", "Interfaces
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointMonolithic", "PointMonolithic\PointMonolithic.csproj", "{331ED0E1-1C4E-4353-A610-F22C1EF19979}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassesApp", "AbstractClassesApp\AbstractClassesApp.csproj", "{0DE3CA3F-22D6-4934-88E0-C3A80EC41C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsApp", "CollectionsApp\CollectionsApp.csproj", "{5CF8ABF7-77C9-4BE1-91B3-B46CA61136E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +205,14 @@ Global
 		{331ED0E1-1C4E-4353-A610-F22C1EF19979}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{331ED0E1-1C4E-4353-A610-F22C1EF19979}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{331ED0E1-1C4E-4353-A610-F22C1EF19979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE3CA3F-22D6-4934-88E0-C3A80EC41C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE3CA3F-22D6-4934-88E0-C3A80EC41C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE3CA3F-22D6-4934-88E0-C3A80EC41C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE3CA3F-22D6-4934-88E0-C3A80EC41C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF8ABF7-77C9-4BE1-91B3-B46CA61136E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF8ABF7-77C9-4BE1-91B3-B46CA61136E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF8ABF7-77C9-4BE1-91B3-B46CA61136E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF8ABF7-77C9-4BE1-91B3-B46CA61136E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
