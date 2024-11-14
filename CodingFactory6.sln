@@ -57,13 +57,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOApp", "OOApp\OOApp.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountApp", "AccountApp\AccountApp.csproj", "{76D93FCF-76BB-47E0-8FFF-CFC558BB3F38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointApp", "PointApp\PointApp.csproj", "{2A2DE3A5-3E23-4010-8EC0-58FEAB6888E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PointApp", "PointApp\PointApp.csproj", "{2A2DE3A5-3E23-4010-8EC0-58FEAB6888E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyingApp", "CopyingApp\CopyingApp.csproj", "{5D5DD90D-A6DD-401E-B601-D312E2AE2B16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CopyingApp", "CopyingApp\CopyingApp.csproj", "{5D5DD90D-A6DD-401E-B601-D312E2AE2B16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fraction", "Fraction\Fraction.csproj", "{30E09694-9CA4-4F9F-9E7A-F45A8605CC00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fraction", "Fraction\Fraction.csproj", "{30E09694-9CA4-4F9F-9E7A-F45A8605CC00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesApp", "InterfacesApp\InterfacesApp.csproj", "{C69C2C5D-229B-461B-BBEB-D19E656F76B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesApp", "InterfacesApp\InterfacesApp.csproj", "{C69C2C5D-229B-461B-BBEB-D19E656F76B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointMonolithic", "PointMonolithic\PointMonolithic.csproj", "{331ED0E1-1C4E-4353-A610-F22C1EF19979}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +197,10 @@ Global
 		{C69C2C5D-229B-461B-BBEB-D19E656F76B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C69C2C5D-229B-461B-BBEB-D19E656F76B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C69C2C5D-229B-461B-BBEB-D19E656F76B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{331ED0E1-1C4E-4353-A610-F22C1EF19979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331ED0E1-1C4E-4353-A610-F22C1EF19979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331ED0E1-1C4E-4353-A610-F22C1EF19979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331ED0E1-1C4E-4353-A610-F22C1EF19979}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
