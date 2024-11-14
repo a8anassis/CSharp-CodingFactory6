@@ -71,6 +71,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassesApp", "Abstr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsApp", "CollectionsApp\CollectionsApp.csproj", "{5CF8ABF7-77C9-4BE1-91B3-B46CA61136E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsComparerApp", "ProductsComparerApp\ProductsComparerApp.csproj", "{2839C2A2-7B97-407F-B86E-2119450B959D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqApp", "LinqApp\LinqApp.csproj", "{B371B3F5-3FA9-4DE2-BFAF-E94AB3902CD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +217,14 @@ Global
 		{5CF8ABF7-77C9-4BE1-91B3-B46CA61136E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CF8ABF7-77C9-4BE1-91B3-B46CA61136E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CF8ABF7-77C9-4BE1-91B3-B46CA61136E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2839C2A2-7B97-407F-B86E-2119450B959D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2839C2A2-7B97-407F-B86E-2119450B959D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2839C2A2-7B97-407F-B86E-2119450B959D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2839C2A2-7B97-407F-B86E-2119450B959D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B371B3F5-3FA9-4DE2-BFAF-E94AB3902CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B371B3F5-3FA9-4DE2-BFAF-E94AB3902CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B371B3F5-3FA9-4DE2-BFAF-E94AB3902CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B371B3F5-3FA9-4DE2-BFAF-E94AB3902CD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
