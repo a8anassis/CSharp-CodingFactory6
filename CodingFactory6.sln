@@ -65,15 +65,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fraction", "Fraction\Fracti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesApp", "InterfacesApp\InterfacesApp.csproj", "{C69C2C5D-229B-461B-BBEB-D19E656F76B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointMonolithic", "PointMonolithic\PointMonolithic.csproj", "{331ED0E1-1C4E-4353-A610-F22C1EF19979}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PointMonolithic", "PointMonolithic\PointMonolithic.csproj", "{331ED0E1-1C4E-4353-A610-F22C1EF19979}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassesApp", "AbstractClassesApp\AbstractClassesApp.csproj", "{0DE3CA3F-22D6-4934-88E0-C3A80EC41C60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClassesApp", "AbstractClassesApp\AbstractClassesApp.csproj", "{0DE3CA3F-22D6-4934-88E0-C3A80EC41C60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsApp", "CollectionsApp\CollectionsApp.csproj", "{5CF8ABF7-77C9-4BE1-91B3-B46CA61136E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionsApp", "CollectionsApp\CollectionsApp.csproj", "{5CF8ABF7-77C9-4BE1-91B3-B46CA61136E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsComparerApp", "ProductsComparerApp\ProductsComparerApp.csproj", "{2839C2A2-7B97-407F-B86E-2119450B959D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductsComparerApp", "ProductsComparerApp\ProductsComparerApp.csproj", "{2839C2A2-7B97-407F-B86E-2119450B959D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqApp", "LinqApp\LinqApp.csproj", "{B371B3F5-3FA9-4DE2-BFAF-E94AB3902CD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqApp", "LinqApp\LinqApp.csproj", "{B371B3F5-3FA9-4DE2-BFAF-E94AB3902CD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackApp", "StackApp\StackApp.csproj", "{F13ECECB-1963-4921-A613-B3DD4F0383C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinglyLinkedList", "SinglyLinkedList\SinglyLinkedList.csproj", "{51E41FBA-D414-42EF-8F0F-0330951BF7EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +229,14 @@ Global
 		{B371B3F5-3FA9-4DE2-BFAF-E94AB3902CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B371B3F5-3FA9-4DE2-BFAF-E94AB3902CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B371B3F5-3FA9-4DE2-BFAF-E94AB3902CD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F13ECECB-1963-4921-A613-B3DD4F0383C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13ECECB-1963-4921-A613-B3DD4F0383C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13ECECB-1963-4921-A613-B3DD4F0383C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13ECECB-1963-4921-A613-B3DD4F0383C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51E41FBA-D414-42EF-8F0F-0330951BF7EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E41FBA-D414-42EF-8F0F-0330951BF7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E41FBA-D414-42EF-8F0F-0330951BF7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E41FBA-D414-42EF-8F0F-0330951BF7EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
