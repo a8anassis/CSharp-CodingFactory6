@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container">
+   <div class="mt-4 p-5 bg-success rounded">
+       <span class="display-3 text-text">Welcome to Coding Factory!</span>
+       <span class="d-block lead text-white">We create professional programmers</span>
+       <hr />
+       <p>
+           It's @Model.CurrentDay! Time to learn more about Coding Factory!
+       </p>
+        <a class="btn btn-primary" href="https://codingfactory.aueb.gr/" target="_blank">Learn More!</a>
+   </div>
+</div>

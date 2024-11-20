@@ -83,7 +83,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileManagement", "FileManag
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppStarter", "WebAppStarter\WebAppStarter.csproj", "{71173E24-34F5-4630-BAF0-84D7C4D1B1CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyingBinaryFile", "CopyingBinaryFile\CopyingBinaryFile.csproj", "{29B4BCAE-0D77-4CDE-9715-D481D99DAE7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CopyingBinaryFile", "CopyingBinaryFile\CopyingBinaryFile.csproj", "{29B4BCAE-0D77-4CDE-9715-D481D99DAE7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp6Starter", "WebApp6Starter\WebApp6Starter.csproj", "{CA85F7E6-F53B-416D-85D0-F5737CEA4198}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,6 +257,10 @@ Global
 		{29B4BCAE-0D77-4CDE-9715-D481D99DAE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29B4BCAE-0D77-4CDE-9715-D481D99DAE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29B4BCAE-0D77-4CDE-9715-D481D99DAE7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA85F7E6-F53B-416D-85D0-F5737CEA4198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA85F7E6-F53B-416D-85D0-F5737CEA4198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA85F7E6-F53B-416D-85D0-F5737CEA4198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA85F7E6-F53B-416D-85D0-F5737CEA4198}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
