@@ -1,0 +1,21 @@
+﻿@page
+@model WebApp6Starter.Pages.Students.SuccessModel
+@{
+    ViewData["Title"] = "Success";
+}
+
+<div class="container">
+
+    <div class="mt-4 p-5 bg-success rounded">
+        <span class="display=3 text-white">Success!</span>
+        <hr />
+        <p>
+            @Model.Message
+        </p>
+        <a asp-page="/Students/Index" class="btn btn-primary">Back</a>
+    </div>
+</div>
+
+
+
+
