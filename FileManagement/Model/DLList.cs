@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FileManagement.Model
+﻿namespace FileManagement.Model
 {
     internal class DLList<T>
     {
@@ -82,11 +76,17 @@ namespace FileManagement.Model
             return null;
         }
 
-        public void IncreaseCount(GenericNode<T>? node)
+        public static void IncreaseCount(GenericNode<T>? node)
         {
             if (node is null) return;
             node.Count++;
-            //Console.WriteLine($"value: {node.Value} count: {node.Count}");
+        }
+
+        public void IncreaseCount(T t)
+        {
+            GenericNode<T>? node = GetPosition(t);
+            if (node is null) return;
+            node.Count++;
         }
         
         public void SortByCount()
@@ -96,20 +96,19 @@ namespace FileManagement.Model
                 int minVal = iNode.Count;
                 GenericNode<T> minPos = iNode;
 
-                for (GenericNode<T> jNode = iNode.Next!; jNode != null; jNode = jNode.Next!)
+                for (GenericNode<T>? jNode = iNode.Next!; jNode != null; jNode = jNode.Next)
                 {
                     if (jNode.Count > minVal)
                     {
-                       minVal = jNode.Count;
+                        minVal = jNode.Count;
                         minPos = jNode;
                     }
-                    //Swap(iNode, minPos);
                 }
                 Swap(iNode, minPos);
             }
         }
 
-        public void Swap(GenericNode<T> iNode, GenericNode<T> jNode)
+        public static void Swap(GenericNode<T> iNode, GenericNode<T> jNode)
         {
             T? tmpVal = iNode.Value;
             int tmpCount = iNode.Count;
@@ -120,9 +119,6 @@ namespace FileManagement.Model
             jNode.Count = tmpCount;
         }
        
-
-
-
         public bool IsEmpty()
         {
             return Head == null && Tail == null;

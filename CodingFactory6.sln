@@ -75,13 +75,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductsComparerApp", "Prod
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqApp", "LinqApp\LinqApp.csproj", "{B371B3F5-3FA9-4DE2-BFAF-E94AB3902CD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackApp", "StackApp\StackApp.csproj", "{F13ECECB-1963-4921-A613-B3DD4F0383C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackApp", "StackApp\StackApp.csproj", "{F13ECECB-1963-4921-A613-B3DD4F0383C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinglyLinkedList", "SinglyLinkedList\SinglyLinkedList.csproj", "{51E41FBA-D414-42EF-8F0F-0330951BF7EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinglyLinkedList", "SinglyLinkedList\SinglyLinkedList.csproj", "{51E41FBA-D414-42EF-8F0F-0330951BF7EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileManagement", "FileManagement\FileManagement.csproj", "{ACDD7C11-7FB6-4F06-BB58-83BB8EE6000A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileManagement", "FileManagement\FileManagement.csproj", "{ACDD7C11-7FB6-4F06-BB58-83BB8EE6000A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppStarter", "WebAppStarter\WebAppStarter.csproj", "{71173E24-34F5-4630-BAF0-84D7C4D1B1CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppStarter", "WebAppStarter\WebAppStarter.csproj", "{71173E24-34F5-4630-BAF0-84D7C4D1B1CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyingBinaryFile", "CopyingBinaryFile\CopyingBinaryFile.csproj", "{29B4BCAE-0D77-4CDE-9715-D481D99DAE7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -249,6 +251,10 @@ Global
 		{71173E24-34F5-4630-BAF0-84D7C4D1B1CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71173E24-34F5-4630-BAF0-84D7C4D1B1CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71173E24-34F5-4630-BAF0-84D7C4D1B1CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B4BCAE-0D77-4CDE-9715-D481D99DAE7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B4BCAE-0D77-4CDE-9715-D481D99DAE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B4BCAE-0D77-4CDE-9715-D481D99DAE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B4BCAE-0D77-4CDE-9715-D481D99DAE7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

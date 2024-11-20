@@ -1,0 +1,29 @@
+﻿@page
+@model WebAppStarter.Pages.Students.IndexModel
+@{
+    ViewData["Title"] = "Add Student";
+}
+
+<h1>Add a New Student</h1>
+
+<form method="post">
+    <div class="mb-3">
+        <label for="Id" class="form-label">Student ID</label>
+        <input asp-for="InsertStudentDTO!.Id" class="form-control" id="Id" value=""/>
+        <span asp-validation-for="InsertStudentDTO!.Id" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="Firstname" class="form-label">First Name</label>
+        <input asp-for="InsertStudentDTO!.Firstname" class="form-control" id="Firstname" />
+        <span asp-validation-for="InsertStudentDTO!.Firstname" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="Lastname" class="form-label">Last Name</label>
+        <input asp-for="InsertStudentDTO!.Lastname" class="form-control" id="Lastname" />
+        <span asp-validation-for="InsertStudentDTO!.Lastname" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
