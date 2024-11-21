@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+ο»Ώusing Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using WebApp6Starter.DTO;
 using WebApp6Starter.Models;
@@ -8,10 +8,11 @@ namespace WebApp6Starter.Pages.Students
     public class ViewStudentsModel : PageModel
     {
         public List<StudentReadOnlyDTO> StudentsReadOnlyDTOs { get; set; } = [
-            MapStudentToDTO(new Student() {Id = 1, Firstname = "Γιώργος", Lastname = "Φράγκος"}),
-            MapStudentToDTO(new Student() {Id = 1, Firstname = "Κώστας", Lastname = "Ανδρούτσος"}),
-            MapStudentToDTO(new Student() {Id = 1, Firstname = "Άννα", Lastname = "Γιαννούτσου"})
+            MapStudentToDTO(new Student() {Id = 1, Firstname = "Ξ“ΞΉΟΟΞ³ΞΏΟ‚", Lastname = "Ξ¦ΟΞ¬Ξ³ΞΊΞΏΟ‚"}),
+            MapStudentToDTO(new Student() {Id = 1, Firstname = "ΞΟΟƒΟ„Ξ±Ο‚", Lastname = "Ξ‘Ξ½Ξ΄ΟΞΏΟΟ„ΟƒΞΏΟ‚"}),
+            MapStudentToDTO(new Student() {Id = 1, Firstname = "Ξ†Ξ½Ξ½Ξ±", Lastname = "Ξ“ΞΉΞ±Ξ½Ξ½ΞΏΟΟ„ΟƒΞΏΟ…"})
         ];
+
 
 
 

@@ -85,7 +85,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppStarter", "WebAppStar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CopyingBinaryFile", "CopyingBinaryFile\CopyingBinaryFile.csproj", "{29B4BCAE-0D77-4CDE-9715-D481D99DAE7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp6Starter", "WebApp6Starter\WebApp6Starter.csproj", "{CA85F7E6-F53B-416D-85D0-F5737CEA4198}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp6Starter", "WebApp6Starter\WebApp6Starter.csproj", "{CA85F7E6-F53B-416D-85D0-F5737CEA4198}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStarter6DBApp", "WebStarter6DBApp\WebStarter6DBApp.csproj", "{4A1537D6-0C3E-495C-9BE8-DF354E955600}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +263,10 @@ Global
 		{CA85F7E6-F53B-416D-85D0-F5737CEA4198}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA85F7E6-F53B-416D-85D0-F5737CEA4198}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA85F7E6-F53B-416D-85D0-F5737CEA4198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1537D6-0C3E-495C-9BE8-DF354E955600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1537D6-0C3E-495C-9BE8-DF354E955600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1537D6-0C3E-495C-9BE8-DF354E955600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1537D6-0C3E-495C-9BE8-DF354E955600}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
