@@ -1,0 +1,93 @@
+[22-11-2024 17:27:16330 +02:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager ] User profile is available. Using '"C:\Users\a8ana\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[22-11-2024 17:27:16546 +02:00 Microsoft.Hosting.Lifetime ] Now listening on: "https://localhost:7132"
+[22-11-2024 17:27:16550 +02:00 Microsoft.Hosting.Lifetime ] Now listening on: "http://localhost:5035"
+[22-11-2024 17:27:16579 +02:00 Microsoft.Hosting.Lifetime ] Application started. Press Ctrl+C to shut down.
+[22-11-2024 17:27:16585 +02:00 Microsoft.Hosting.Lifetime ] Hosting environment: "Development"
+[22-11-2024 17:27:16590 +02:00 Microsoft.Hosting.Lifetime ] Content root path: "C:\Users\a8ana\source\repos\CodingFactory6\WebStarter6DBApp"
+[22-11-2024 17:27:17170 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/""" - null null
+[22-11-2024 17:27:17330 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"/Index"'
+[22-11-2024 17:27:17368 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[22-11-2024 17:27:17375 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executing handler method "WebStarter6DBApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[22-11-2024 17:27:17376 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed handler method "OnGet", returned result "".
+[22-11-2024 17:27:17379 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executing an implicit handler method - ModelState is Valid
+[22-11-2024 17:27:17380 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[22-11-2024 17:27:17451 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed page "/Index" in 79.8236ms
+[22-11-2024 17:27:17456 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"/Index"'
+[22-11-2024 17:27:17461 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/""" - 200 null "text/html; charset=utf-8" 293.3501ms
+[22-11-2024 17:27:17469 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/lib/bootstrap/dist/css/bootstrap.min.css""" - null null
+[22-11-2024 17:27:17469 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/WebStarter6DBApp.styles.css""?v=4foy6LsAk0ErCdYMKRPftMzYv_NLLh9K6-tVUqWsbko" - null null
+[22-11-2024 17:27:17469 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/css/site.css""?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0" - null null
+[22-11-2024 17:27:17469 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/lib/bootstrap/dist/js/bootstrap.bundle.min.js""" - null null
+[22-11-2024 17:27:17469 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/lib/jquery/dist/jquery.min.js""" - null null
+[22-11-2024 17:27:17470 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - null null
+[22-11-2024 17:27:17470 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[22-11-2024 17:27:17480 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/WebStarter6DBApp.styles.css"'. Physical path: '"C:\Users\a8ana\source\repos\CodingFactory6\WebStarter6DBApp\obj\Debug\net8.0\scopedcss\bundle\WebStarter6DBApp.styles.css"'
+[22-11-2024 17:27:17483 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/css/site.css"'. Physical path: '"C:\Users\a8ana\source\repos\CodingFactory6\WebStarter6DBApp\wwwroot\css\site.css"'
+[22-11-2024 17:27:17488 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/js/site.js"'. Physical path: '"C:\Users\a8ana\source\repos\CodingFactory6\WebStarter6DBApp\wwwroot\js\site.js"'
+[22-11-2024 17:27:17492 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/_vs/browserLink""" - null null
+[22-11-2024 17:27:17495 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/WebStarter6DBApp.styles.css""?v=4foy6LsAk0ErCdYMKRPftMzYv_NLLh9K6-tVUqWsbko" - 200 1134 "text/css" 25.7558ms
+[22-11-2024 17:27:17496 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/_framework/aspnetcore-browser-refresh.js""" - 200 13768 "application/javascript; charset=utf-8" 25.5395ms
+[22-11-2024 17:27:17497 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.min.js"'. Physical path: '"C:\Users\a8ana\source\repos\CodingFactory6\WebStarter6DBApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js"'
+[22-11-2024 17:27:17498 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/css/site.css""?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0" - 200 362 "text/css" 28.5413ms
+[22-11-2024 17:27:17499 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.min.css"'. Physical path: '"C:\Users\a8ana\source\repos\CodingFactory6\WebStarter6DBApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css"'
+[22-11-2024 17:27:17499 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"C:\Users\a8ana\source\repos\CodingFactory6\WebStarter6DBApp\wwwroot\lib\jquery\dist\jquery.min.js"'
+[22-11-2024 17:27:17500 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - 200 231 "text/javascript" 29.9511ms
+[22-11-2024 17:27:17512 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/lib/bootstrap/dist/js/bootstrap.bundle.min.js""" - 200 78468 "text/javascript" 42.8055ms
+[22-11-2024 17:27:17520 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/lib/bootstrap/dist/css/bootstrap.min.css""" - 200 162720 "text/css" 50.6213ms
+[22-11-2024 17:27:17526 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/lib/jquery/dist/jquery.min.js""" - 200 89501 "text/javascript" 56.6299ms
+[22-11-2024 17:27:17593 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 100.7872ms
+[22-11-2024 17:27:17647 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/favicon.ico""" - null null
+[22-11-2024 17:27:17651 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\Users\a8ana\source\repos\CodingFactory6\WebStarter6DBApp\wwwroot\favicon.ico"'
+[22-11-2024 17:27:17653 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/favicon.ico""" - 200 5430 "image/x-icon" 6.1103ms
+[22-11-2024 17:27:19254 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/""" - null null
+[22-11-2024 17:27:19261 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"/Index"'
+[22-11-2024 17:27:19263 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[22-11-2024 17:27:19268 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executing handler method "WebStarter6DBApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[22-11-2024 17:27:19269 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed handler method "OnGet", returned result "".
+[22-11-2024 17:27:19270 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executing an implicit handler method - ModelState is Valid
+[22-11-2024 17:27:19271 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[22-11-2024 17:27:19276 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed page "/Index" in 8.9394ms
+[22-11-2024 17:27:19278 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"/Index"'
+[22-11-2024 17:27:19280 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/""" - 200 null "text/html; charset=utf-8" 25.7818ms
+[22-11-2024 17:27:19296 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[22-11-2024 17:27:19297 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/WebStarter6DBApp.styles.css""?v=4foy6LsAk0ErCdYMKRPftMzYv_NLLh9K6-tVUqWsbko" - null null
+[22-11-2024 17:27:19306 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/_vs/browserLink""" - null null
+[22-11-2024 17:27:19306 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/_framework/aspnetcore-browser-refresh.js""" - 200 13768 "application/javascript; charset=utf-8" 8.9896ms
+[22-11-2024 17:27:19309 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] The file "/WebStarter6DBApp.styles.css" was not modified
+[22-11-2024 17:27:19316 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/WebStarter6DBApp.styles.css""?v=4foy6LsAk0ErCdYMKRPftMzYv_NLLh9K6-tVUqWsbko" - 304 null "text/css" 18.4648ms
+[22-11-2024 17:27:19316 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 10.2741ms
+[22-11-2024 17:27:20123 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/Privacy""" - null null
+[22-11-2024 17:27:20129 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"/Privacy"'
+[22-11-2024 17:27:20134 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Route matched with "{page = \"/Privacy\"}". Executing page "/Privacy"
+[22-11-2024 17:27:20137 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executing handler method "WebStarter6DBApp.Pages.PrivacyModel.OnGet" - ModelState is Valid
+[22-11-2024 17:27:20140 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed handler method "OnGet", returned result "".
+[22-11-2024 17:27:20142 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executing an implicit handler method - ModelState is Valid
+[22-11-2024 17:27:20143 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[22-11-2024 17:27:20147 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed page "/Privacy" in 10.1776ms
+[22-11-2024 17:27:20148 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"/Privacy"'
+[22-11-2024 17:27:20149 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/Privacy""" - 200 null "text/html; charset=utf-8" 26.4955ms
+[22-11-2024 17:27:20176 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/WebStarter6DBApp.styles.css""?v=4foy6LsAk0ErCdYMKRPftMzYv_NLLh9K6-tVUqWsbko" - null null
+[22-11-2024 17:27:20176 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[22-11-2024 17:27:20176 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/_vs/browserLink""" - null null
+[22-11-2024 17:27:20181 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] The file "/WebStarter6DBApp.styles.css" was not modified
+[22-11-2024 17:27:20184 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/_framework/aspnetcore-browser-refresh.js""" - 200 13768 "application/javascript; charset=utf-8" 7.5548ms
+[22-11-2024 17:27:20187 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/WebStarter6DBApp.styles.css""?v=4foy6LsAk0ErCdYMKRPftMzYv_NLLh9K6-tVUqWsbko" - 304 null "text/css" 11.5772ms
+[22-11-2024 17:27:20191 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 14.2228ms
+[22-11-2024 17:27:21260 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/""" - null null
+[22-11-2024 17:27:21265 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"/Index"'
+[22-11-2024 17:27:21268 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[22-11-2024 17:27:21270 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executing handler method "WebStarter6DBApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[22-11-2024 17:27:21271 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed handler method "OnGet", returned result "".
+[22-11-2024 17:27:21272 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executing an implicit handler method - ModelState is Valid
+[22-11-2024 17:27:21272 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[22-11-2024 17:27:21276 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed page "/Index" in 6.0713ms
+[22-11-2024 17:27:21277 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"/Index"'
+[22-11-2024 17:27:21279 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/""" - 200 null "text/html; charset=utf-8" 18.9838ms
+[22-11-2024 17:27:21291 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[22-11-2024 17:27:21291 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/_vs/browserLink""" - null null
+[22-11-2024 17:27:21291 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:7132""""/WebStarter6DBApp.styles.css""?v=4foy6LsAk0ErCdYMKRPftMzYv_NLLh9K6-tVUqWsbko" - null null
+[22-11-2024 17:27:21295 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/_framework/aspnetcore-browser-refresh.js""" - 200 13768 "application/javascript; charset=utf-8" 4.0714ms
+[22-11-2024 17:27:21302 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 11.6077ms
+[22-11-2024 17:27:21303 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] The file "/WebStarter6DBApp.styles.css" was not modified
+[22-11-2024 17:27:21311 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/WebStarter6DBApp.styles.css""?v=4foy6LsAk0ErCdYMKRPftMzYv_NLLh9K6-tVUqWsbko" - 304 null "text/css" 20.2174ms
+[22-11-2024 17:27:51877 +02:00 Microsoft.Hosting.Lifetime ] Application is shutting down...
