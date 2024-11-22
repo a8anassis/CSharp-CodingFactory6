@@ -6,7 +6,6 @@ namespace WebStarter6DBApp.Configuration
 {
     public class MapperConfig : Profile
     {
-
         public MapperConfig()
         {
             CreateMap<StudentInsertDTO, Student>().ReverseMap();

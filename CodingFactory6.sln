@@ -87,7 +87,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CopyingBinaryFile", "Copyin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp6Starter", "WebApp6Starter\WebApp6Starter.csproj", "{CA85F7E6-F53B-416D-85D0-F5737CEA4198}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStarter6DBApp", "WebStarter6DBApp\WebStarter6DBApp.csproj", "{4A1537D6-0C3E-495C-9BE8-DF354E955600}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebStarter6DBApp", "WebStarter6DBApp\WebStarter6DBApp.csproj", "{4A1537D6-0C3E-495C-9BE8-DF354E955600}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

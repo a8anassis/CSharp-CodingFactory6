@@ -14,6 +14,7 @@ namespace WebStarter6DBApp.DAO
                  "SELECT SCOPE_IDENTITY();";
 
             using SqlConnection connection = DBUtil.GetConnection();
+
             connection.Open();
 
             using SqlCommand command1 = new(sql1, connection);
