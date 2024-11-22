@@ -91,3 +91,9 @@
 [22-11-2024 17:27:21303 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] The file "/WebStarter6DBApp.styles.css" was not modified
 [22-11-2024 17:27:21311 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:7132""""/WebStarter6DBApp.styles.css""?v=4foy6LsAk0ErCdYMKRPftMzYv_NLLh9K6-tVUqWsbko" - 304 null "text/css" 20.2174ms
 [22-11-2024 17:27:51877 +02:00 Microsoft.Hosting.Lifetime ] Application is shutting down...
+[22-11-2024 20:11:35155 +02:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager ] User profile is available. Using '"C:\Users\a8ana\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[22-11-2024 20:11:35368 +02:00 Microsoft.Hosting.Lifetime ] Now listening on: "http://localhost:5035"
+[22-11-2024 20:11:35372 +02:00 Microsoft.Hosting.Lifetime ] Application started. Press Ctrl+C to shut down.
+[22-11-2024 20:11:35375 +02:00 Microsoft.Hosting.Lifetime ] Hosting environment: "Development"
+[22-11-2024 20:11:35379 +02:00 Microsoft.Hosting.Lifetime ] Content root path: "C:\Users\a8ana\source\repos\CodingFactory6\WebStarter6DBApp"
+[22-11-2024 20:11:42512 +02:00 Microsoft.Hosting.Lifetime ] Application is shutting down...
