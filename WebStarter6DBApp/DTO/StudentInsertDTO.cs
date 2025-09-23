@@ -21,4 +21,20 @@ namespace WebStarter6DBApp.DTO
             Lastname = lastname;
         }
     }
+
+    //public record StudentInsertDTO(
+    //    [property: Required(ErrorMessage = "Firstname is required.")]
+    //    [property: MinLength(1, ErrorMessage = "Firstname must be at least 1 character long.")]
+    //    string Firstname,
+
+    //    [property: Required(ErrorMessage = "Lastname is required.")]
+    //    [property: MinLength(1, ErrorMessage = "Lastname must be at least 1 character long.")]
+    //    string Lastname,
+
+    //    int Id
+    //)
+    //{
+    //    // Parameterless constructor for model binding
+    //    public Student() : this(string.Empty, string.Empty, 0) { }
+    //}
 }

@@ -14,4 +14,13 @@ namespace WebStarter6DBApp.DTO
             Id = id;
         }
     }
+
+//    public abstract record BaseDTO(
+//    [property: Required(ErrorMessage = "The {0} is required.")]
+//    int Id
+//)
+//    {
+//        // Parameterless constructor → allows object initializers / model binding
+//        public BaseDTO() : this(0) { }
+//    }
 }

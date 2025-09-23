@@ -9,6 +9,9 @@ namespace WebStarter6DBApp.Services.DBHelper
             SqlConnection connection;
             ConfigurationBuilder builder = new ConfigurationBuilder();
             builder.AddJsonFile("appsettings.json");
+            //var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "Production";
+            //builder.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+           //     .AddJsonFile($"appsettings.{environment}.json", optional: true, reloadOnChange: true);
             var configuration = builder.Build();
             string? url = configuration.GetConnectionString("DefaultConnection");
 

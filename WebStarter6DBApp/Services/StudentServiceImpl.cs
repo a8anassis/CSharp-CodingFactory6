@@ -33,10 +33,14 @@ namespace WebStarter6DBApp.Services
                 studentReadOnlyDTO = _mapper.Map<StudentReadOnlyDTO>(insertedStudent);
 
                 scope.Complete();
+                _logger.LogInformation("Student {Firstname} {Lastname} inserted successfully", studentInsertDTO.Firstname, studentInsertDTO.Lastname);
                 return studentReadOnlyDTO;
             } catch (TransactionException ex)
             {
-                _logger.LogError("Error. Student {Firstname} {Lastname} not inserted. {ErrorMessage}",
+                //_logger.LogError("Error. Student {Firstname} {Lastname} not inserted. {ErrorMessage}",
+                //    studentInsertDTO.Firstname, studentInsertDTO.Lastname, ex.Message);
+                // Καλύτερη version - πιο professional
+                _logger.LogError(ex, "Student insertion failed for {Firstname} {Lastname}. Error: {ErrorMessage}",
                     studentInsertDTO.Firstname, studentInsertDTO.Lastname, ex.Message);
                 throw;
             }
