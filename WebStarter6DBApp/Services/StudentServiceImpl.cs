@@ -31,9 +31,8 @@ namespace WebStarter6DBApp.Services
                 Student student = _mapper.Map<Student>(studentInsertDTO);
                 Student? insertedStudent = _studentDAO.Insert(student);
                 studentReadOnlyDTO = _mapper.Map<StudentReadOnlyDTO>(insertedStudent);
-
-                scope.Complete();
                 _logger.LogInformation("Student {Firstname} {Lastname} inserted successfully", studentInsertDTO.Firstname, studentInsertDTO.Lastname);
+                scope.Complete();
                 return studentReadOnlyDTO;
             } catch (TransactionException ex)
             {
@@ -65,11 +64,12 @@ namespace WebStarter6DBApp.Services
                 }
                 student = _mapper.Map<Student>(studentUpdateDTO);
                 _studentDAO.Update(student);
+                _logger.LogInformation("Student {Firstname} {Lastname} updated successfully", studentUpdateDTO.Firstname, studentUpdateDTO.Lastname);
                 scope.Complete();
             } 
             catch (StudentNotFoundException ex)
             {
-                _logger.LogError("Error. Student with id {Id} not found. {ErrorMessage}",
+                _logger.LogError("Student with id {Id} not found. {ErrorMessage}",
                     studentUpdateDTO.Id, ex.Message);
                 throw;
             }
@@ -97,6 +97,8 @@ namespace WebStarter6DBApp.Services
                     throw new StudentNotFoundException($"Student with id {id} not found");
                 }
                 _studentDAO.Delete(id);
+                _logger.LogInformation("Student with id {Id} deleted successfully", id); // placeholder, structured logging
+
                 scope.Complete();
             } 
             catch (StudentNotFoundException ex)
@@ -132,6 +134,7 @@ namespace WebStarter6DBApp.Services
                     throw new StudentNotFoundException($"Student with id {id} not found");
                 }
                 studentReadOnlyDTO = _mapper.Map<StudentReadOnlyDTO>(student);
+                _logger.LogInformation("Student with id {Id} found successfully", id);
                 return studentReadOnlyDTO;
             } 
             catch (StudentNotFoundException ex)
@@ -163,6 +166,7 @@ namespace WebStarter6DBApp.Services
                     studentReadOnlyDto = _mapper.Map<StudentReadOnlyDTO>(student);
                     studentReadOnlyDTOs.Add(studentReadOnlyDto);
                 }
+                _logger.LogInformation("All Student returned successfully");
                 return studentReadOnlyDTOs;
             } 
             catch (Exception ex)
