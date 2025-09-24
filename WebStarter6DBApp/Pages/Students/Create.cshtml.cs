@@ -36,7 +36,6 @@ namespace WebStarter6DBApp.Pages.Students
             {
                 StudentReadOnlyDTO? studentReadOnlyDTO = _studentService.InsertStudent(StudentInsertDTO);
                 Response.Redirect("/Students/getall");
-                //return RedirectToPage("/Students/getall");
             }
             catch (Exception ex)
             {

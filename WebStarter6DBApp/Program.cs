@@ -18,7 +18,7 @@ namespace WebStarter6DBApp
             builder.Services.AddScoped<IStudentDAO, StudentDAOImpl>();
             builder.Services.AddScoped<IStudentService, StudentServiceImpl>();
 
-            builder.Services.AddAutoMapper(typeof(MapperConfig));
+            builder.Services.AddAutoMapper(cfg => cfg.AddProfile<MapperConfig>());
             builder.Host.UseSerilog((context, config) =>
             {
                 config.ReadFrom.Configuration(context.Configuration);
